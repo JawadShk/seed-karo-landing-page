@@ -12,7 +12,7 @@ body{
 
 
 .banner{
-    background-color: #f8f9fa;
+    background-color: #f8f9fa !important;
 }
 .banner-text{
     font-size: 50px;
@@ -34,18 +34,70 @@ body{
     font-size: 18px;
     border: 0px;
 }
+.banner-btn button:hover{
+    font-weight: 700;
+    background-color: red;
+    color: #fff;
+}
 
+@media only screen and (min-width: 375px){
+    .banner-text{
+        font-size: 40px;
+        margin-top: 10px;
+    }
+}
 /* BANNER  */
+
+.icons{
+    font-size: 40px;
+    /* text-align: center; */
+    color: #6bc449 !important;
+    margin: 20px 0px;
+}
+.feature-items{
+    height: 280px;
+}
+.feature-head h1{
+    color: #6bc449;
+}
+.card:hover{
+    transform: scale(1.1);
+    background-color:teal !important;
+    color: #fff;
+}
+
+@media only screen and (min-width: 1000px){
+    .feature-items{
+        height: 350px;
+    }
+}
 
 /* OUR FEATURE  */
 
-.our-feature h2{
+.about-us{
+    background-color: #f8f9fa;
+}
+.about-us h1{
     color: #6bc449;
-    text-align: center;
 }
-.our-feature h3{
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 15px;
+.aboutus-p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}   
 
-}
+ /* ABOUT US  */
+
+.stocks h1{
+    color: #6bc449;
+    font-size: 40px;
+    font-weight: 400;
+ }
+ .stock-text{
+     display: flex;
+    align-items: center;
+    height: 600px;
+    justify-content: center; 
+ }
+
+ /* stocks  */
