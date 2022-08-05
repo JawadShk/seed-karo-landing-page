@@ -144,20 +144,11 @@ body{
     text-align: center;
     color: #000;
  }
- /* .s-btn{
-    width: 80%;
-    font-size: 20px;
-    border: 0;
- } */
  .sign-up-btn:hover{
     background-color: #000;
     color: #fff;
  }
  @media only screen and (max-width:768px){
-    /* .s-btn {
-        width: 70%;
-        font-size: 20px;
-    } */
     .signup-text h2 {
         font-size: 25px;
     }
@@ -167,9 +158,6 @@ body{
     .sign-up{
         height: 250px;
      }
-     /* .s-btn {
-        width: 100%;
-    } */
  }
  /* SIGN UP  */
 
@@ -236,3 +224,4 @@ body{
     }
 }
  /* footer  */
+
