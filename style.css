@@ -65,7 +65,11 @@ body{
     background-color:teal !important;
     color: #fff;
 }
-
+@media screen and (max-device-width: 640px) {
+    .feature-items {
+        height: 310px;
+    }
+}
 @media only screen and (min-width: 1000px){
     .feature-items{
         height: 350px;
@@ -84,6 +88,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: justify;
+    padding-left: 10px;
 }   
 
  /* ABOUT US  */
@@ -123,22 +128,111 @@ body{
     background-image: linear-gradient(#5dc559,#70e22f);
     height: 200px;
  }
- .signup-text h2{
+.signup-text h2{
     color: #fff;
     text-transform: capitalize;
     font-size: 40px;
     font-weight: normal;
+ } 
+ .signup-btn a{
+    text-decoration: none;
  }
- .signup-btn{
+ .sign-up-btn{
+    background-color: #fff;
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+    color: #000;
+ }
+ /* .s-btn{
+    width: 80%;
+    font-size: 20px;
+    border: 0;
+ } */
+ .sign-up-btn:hover{
+    background-color: #000;
+    color: #fff;
+ }
+ @media only screen and (max-width:768px){
+    /* .s-btn {
+        width: 70%;
+        font-size: 20px;
+    } */
+    .signup-text h2 {
+        font-size: 25px;
+    }
+ }
+
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .sign-up{
+        height: 250px;
+     }
+     /* .s-btn {
+        width: 100%;
+    } */
+ }
+ /* SIGN UP  */
+
+.terms{
+    text-align: justify;
+}
+
+/* TERMS AND CONDITION  */
+
+.footer{
+    background-color: #343a40;
+    height: 80px;
+    color: #6bc449;
+}
+.copy-r{
+    font-size: 18px;
+    margin-top: 25px;
     margin-left: 70px;
- }
- .sign-up button{
-    border: 0px;
-    border-radius: 15px;
-    padding-right: 20px;
-    padding-left: 20px;
- }
- .signup-btn button:hover{
-    font-weight: 400;
-    background-color: teal;
- }
+    text-transform: capitalize;
+}
+.social-icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 80px;
+    padding-right: 10px;
+}
+.fa-circle-chevron-up{
+    font-size: 40px;
+}
+.fa-brands, .fa-solid{
+    padding-right: 15px;
+}
+.fa-brands:hover,
+.fa-solid:hover{
+    color: #fff;
+    font-size: 30px;
+}
+
+@media screen and (max-device-width: 640px) {
+    .copy-r {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 40px;
+        text-transform: capitalize;
+    }
+    .social-icons {
+        height: 16px;
+        padding-right: 24px;
+    }
+  }
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .copy-r {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 60px;
+        text-transform: capitalize;
+    }
+    .social-icons {
+        height: 0px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+}
+ /* footer  */
