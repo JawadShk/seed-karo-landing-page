@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SeedKaro</title>
 </head>
 <body>
-    <section class="header">
+<section class="header">
         <div class="menu-bar">
             <nav class="navbar navbar-expand-lg m-2">
                 <div class="container">
@@ -36,8 +39,8 @@
                         MY ACCOUNT
                         </a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">LOG IN</a></li>
-                        <li><a class="dropdown-item" href="#">SIGN UP</a></li>
+                        <li><a class="dropdown-item" href="login.php">LOG IN</a></li>
+                        <li><a class="dropdown-item" href="sign-up.php">SIGN UP</a></li>
                         </ul>
                     </li>
                     </ul>
@@ -46,31 +49,4 @@
             </nav>
         </div>
     </section>
-
-    <section class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-8 col-11">
-                    <div class="copy-r">
-                        <p>&copy; 2020 - all rights reserved,seedkaro.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-11">
-                    <div class="social-icons">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-youtube"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-solid fa-phone"></i>
-                        <i class="fa-solid fa-envelope"></i>
-                        <i class="fa-solid fa-circle-chevron-up"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <script src="https://kit.fontawesome.com/899b989fe2.js" crossorigin="anonymous"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-</body>
-</html>
+    <!-- header end  -->
